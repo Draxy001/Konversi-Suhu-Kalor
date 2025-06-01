@@ -143,7 +143,6 @@ class mainApp:
         except ValueError:
             self.result_label.config(text="Masukkan angka yang valid!")
 
-# Main program dengan tema minty
 if __name__ == "__main__":
     root = tb.Window(themename="minty")
     app = mainApp(root)
